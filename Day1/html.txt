@@ -1,0 +1,39 @@
+html root of document
+head contains inforrmation about pages of web browser
+body content visible part workspace working area of the browser
+head browser
+meta tag data about data 
+meta, link, script, title basefont
+tag structure (starting, ending, conatiner, and empty tags)
+<hr/> self enclosing tag
+element br tag is just an element it can be container as well as empty tag
+attribute has key and value
+har attribute sb pe kaam ni karega
+some attributes are defined for special purpose i.e. tags
+lang means language and en means that the source code is written in english language
+ctrl + u is used to open source code
+viewport to adjust screen size
+there are 6 heading tags if typed h7 no suggestions  possess
+if created h7 tag then the normal text will be shown and there will be no heading for h7
+alt+z is for word wrap
+div*4:lorem20 is used to create numbers of div
+&nbsp is used to create space i.e. non breaking space nbsp is html entity
+br tag is used to break rule 
+ctrl+spacebar gives suggestions 
+hr brings at block level which means full length
+hr means horizontal rule
+html is not case sensitive while javascript is case sensitive
+type start and reversed are the attributes of list
+li list item
+ol ordered list 1,A
+disc circle and square are the types of unordered list
+td is used to increase cells
+height is never given in tr
+gap between content and cell is called cell padding
+gap between two cells is called cellspacing
+rowspan and colspan is only used in td and th
+thead gives heaader to each [page]
+tfoot gives footer to each page
+left things after thead and tfoot is tbody
+
+
