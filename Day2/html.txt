@@ -1,0 +1,19 @@
+../ day 2 inside day 2.1 can access called relative path
+directory is day2 and sub directory is day2.1
+. current directory
+../ sub directory
+/ going to access the root i.e. day2
+data is known from where to take relative
+alt stands for alternative text
+/ or copying url fromt the chrome or the name of file from start to end  absolute direct access
+../  or .. or drectly the name of the folder is relative
+in case img is missing then alt text is shown
+it is better to use relative path always
+links are rectangle circle and polygon
+only /nmeans absolute
+parent pop self three ways to call out in target
+self jaha click kiya jis tab m wahi open ho jayega link through anchor tag
+subset of a webpage is iframe
+top sbse bahar i.e. browser
+parent accessing file gets open
+blank means open on new tab
