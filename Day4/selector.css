@@ -1,0 +1,20 @@
+#full
+{
+    border: 5px solid black;
+}
+/* descendant selector */
+div p{
+    color: red;
+}
+/* child selector */
+.outerdiv > .inner{
+    color: blue;
+}
+/* adjacent sibling selector */
+h1 + p{
+    color: green;
+}
+/* general sibling selector */
+h1 ~ p{
+    color: purple;
+}

@@ -1,0 +1,37 @@
+.container{
+  width: 500px;
+  height: 500px;
+  border-top: 10px double;
+  border-left: 10px dashed;
+  border-bottom: 10px solid;
+  border-right: 10px dotted;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+}
+.box{
+  border: 2px solid red;
+}
+.sonu{
+  background-color: aqua;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  font-size: 2em;
+
+}
+.monu{
+  order: 3;
+  background-color: blueviolet;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+
+}

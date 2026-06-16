@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo Element Selector</title>
+  <style>
+    p::first-letter{
+      font-size: 48px;
+    }
+    p::first-line{
+      color: cadetblue;
+    }
+
+    p::before{
+      content: "good morning ";
+    }
+    p::after{
+      content: "good bye";
+    }
+  </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A consequuntur incidunt velit, officia et ipsam accusamus obcaecati totam laborum itaque?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, reprehenderit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, libero. Nam porro illum molestias reiciendis cum facere beatae, ad ipsam.
+    </p>
+</body>
+</html>

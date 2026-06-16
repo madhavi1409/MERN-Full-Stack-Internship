@@ -1,0 +1,15 @@
+rgba ka a in linear gradient defines transparency
+vw is view width
+vh is view height
+cover width ke hisab se
+contain height ke hisab se
+bg-size ke hisab se photo ko definite number of blocks m divide kr skte h
+bg-repeat x axis or y axix or no repeat
+bg-position for adjusting position of the img in left right top or bottom or center
+bg-attachment fixed its position
+shadow one data is x,y,z
+node js is runtime environment
+window.alert gives alert at local server 
+inner html m sara kuch dikhega sara tag used ho jo kaam karega, returns with html tags 
+inner text m sara text pe kaam karega
+.getElementsById this is hump case like camel is 

@@ -8,6 +8,22 @@
         table{
             empty-cells: hide;
         }
+        td:nth-child(odd){
+            background-color: aqua;
+        }
+        td:nth-child(even){
+            background-color: bisque;
+        }
+        tr:nth-child(odd){
+            td:nth-child(odd){
+                background-color: brown;
+            }
+        }
+        tr:nth-child(even){
+            td:nth-child(even){
+                background-color: chocolate;
+            }
+        }
     </style>
 </head>
 <body>

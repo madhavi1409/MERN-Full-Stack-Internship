@@ -1,0 +1,33 @@
+id is one
+class is one
+id with comma is used
+class is used with dot
+# is used for id
+id class tag element priority order
+adjacent child 
+sibling
+* is universal selector used for whole
+child selector means direct child
+sibling selector: 
+general sibling , adjacent sibling selector(just baad wala)
+desandat selector(kisi element ke andar ke content ko access krne ke liye)
+it means only part jitne bhi uske baad aaye sb pe asar karega 
+child selector is direct child only
+sibling means bhai bhn  i.e. just baad wala only or just bgl wala uske alawa kuch nhi
+general sibling selector means h1 ke baad jitne bhi h sbhi pe asar hoga
+bahar wale ke andar ke saare elements ka selection
+pseudo class selectors are hover and focus
+div:first/last-child for 1st and last child access purpose  
+:: pseudo element selector
+: pseudo class selector
+class selector m poore element ko pakad rhe h
+height depends on content 
+and width is 100%
+ctrl+shift+I
+% means parent ka aadha
+margin means border ke bahar ki gapping
+margin works top right bottom left
+content and border ke beech ki gapping is called padding
+.box*10 for creating 10 boxes
+p#full.box for id
+.container>.box*10

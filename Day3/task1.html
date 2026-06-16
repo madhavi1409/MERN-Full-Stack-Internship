@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+
+    <style>
+        body{
+            background-color: rgb(9, 87,102);
+            color: white;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        td{
+            padding: 10px;
+        }
+
+        button{
+            background-color: rgb(255, 111, 0);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Application Form</h1>
+
+<form>
+
+<table>
+
+<tr>
+    <td>First Name:</td>
+    <td><input type="text"></td>
+
+    <td>Last Name:</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>Date of Birth:</td>
+    <td><input type="date"></td>
+
+    <td>Age:</td>
+    <td><input type="number"></td>
+</tr>
+
+<tr>
+    <td>Gender:</td>
+    <td>
+        <select>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+    </td>
+
+    <td>Email Address:</td>
+    <td><input type="email" placeholder="enter email address "></td>
+</tr>
+
+<tr>
+    <td colspan="4">
+        Position Applied For:
+        <input type="radio" name="position"> Junior Developer
+        <input type="radio" name="position"> Mid-level Developer
+        <input type="radio" name="position"> Senior Developer
+    </td>
+</tr>
+
+<tr>
+    <td colspan="4">
+        Programming Languages:
+        <input type="checkbox"> Java
+        <input type="checkbox"> JavaScript
+        <input type="checkbox"> Python
+    </td>
+</tr>
+
+<tr>
+    <td>Password:</td>
+    <td><input type="password"></td>
+
+    <td>Confirm Password:</td>
+    <td><input type="password"></td>
+</tr>
+
+<tr>
+    <td colspan="4" align="center">
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+    </td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
