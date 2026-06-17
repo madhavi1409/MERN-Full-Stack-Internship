@@ -1,0 +1,19 @@
+var is globally accessible
+
+let ki memory dobara ni banegi
+
+hoisting (when u are trying to access a variable which is not declared and trying to access it atlast )
+
+semi colon is not necessary after each line but should be used as is minimified is done then the program starts showing error
+
+ctrl shift j is used to open console
+ctrl shift i is used to open inspect page (developer tools)
+
+delete from left to right side
+backspace delete from right to left
+
+jitne bhi declarations hote h unko javascript compilation se phele heap memory m store krta h jis se ki aisa lgta hai ki declarations top of the file chale jate h ; called hoisting
+
+NaN NOT a number when we try to add non-numeric numbers to add typecasting is needed
+
+type of variable is accessed through typeof in js
