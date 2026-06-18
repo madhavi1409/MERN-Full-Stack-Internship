@@ -1,0 +1,5 @@
+push returns array length and opo returns value that is been popped
+unshift add one value on the 1st position of the array
+shift deletes data from the starting
+callback function
+xyz.includes check whether the array contains the value or not
