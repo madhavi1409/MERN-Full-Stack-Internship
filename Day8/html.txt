@@ -4,3 +4,21 @@ array destruction stores value in variable
 z[2]() callback function
 dynamic keys cannot be accessed through dot operator
 shallow copy copies only at top level
+
+
+
+
+git init
+git config user.name "name"
+git config user.email "email"
+git remote add origin "url"
+git add .
+git commit -m "new msg"
+git branch -M main
+git push -u origin main
+
+//second time
+git add .
+git status
+git commit -m "msg"
+git push
