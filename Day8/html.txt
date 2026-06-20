@@ -1,0 +1,6 @@
+the type of array is object by default
+Array.isArray() shows that it is array or not
+array destruction stores value in variable
+z[2]() callback function
+dynamic keys cannot be accessed through dot operator
+shallow copy copies only at top level

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let user = {
+      name:"hello",
+      course:"bca",
+      roll:55,
+      city:"gkp",
+      height:5.8,
+      weight:55,
+      isHavingGF: false,
+      gender: "male",
+      hobbies:["study","travel","play", "sleep", "cook"],
+      age:21,
+      marital_status:"single"
+    };
+    let keys = Object.keys(user);
+    console.log(keys);
+    let values = Object.values(user);
+    console.log(values);
+    let entries = Object.entries(user);
+    console.log(entries);
+    //to search for any key in the object attributes
+    console.log(keys.includes("name"));
+    //to print all the keys
+    Object.values(user).forEach(element => {
+      console.log(element)
+    });
+    //to print all the key value pair
+    Object.entries(user).forEach((element=>{
+      console.log(element[0]+" - "+element[1])
+    }));
+
+  </script>
+</body>
+</html>

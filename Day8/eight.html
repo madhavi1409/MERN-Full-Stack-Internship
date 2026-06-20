@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let user = {
+      name : "anuj",
+      course : "btech",
+      address: {
+        city:"gkp",
+        state:"up",
+        pincode: 273017
+      },
+      roll_no :3215789,
+      semester:7
+    }
+    console.log(user);
+    let user1 = user;//it is passing the reference an dcalled shallow copy 
+    //shallow copy
+    console.log(user);
+    console.log(user1);
+    let user2 = {
+      ...user
+    };//inner object or array will pass refernce only problem in shallow copy
+    //deep copy
+    let temp = JSON.stringify(user);//javascript object notation
+    console.log(temp);
+    let user3 = JSON.parse(temp);//stringify wale string ko object m pass krta h
+    console.log(user3)
+    //structured clone direct copy
+    let user4 = structuredClone(user)
+    user.name = "aditi mishra";
+    user.address = "mumbai";
+    console.log(user);
+    console.log(user3);
+     const {name:fullname} = user;//alias urf destructing
+    //default value destructing
+     const {attendance = false} = user;
+     let fees = {
+      name : "madhavi",
+      total : 3000,
+      paid: 500,
+      dues:2500
+     }
+     let student = {
+      ...user,
+      ...fees
+     }
+      // same key h to value update ho jayegi i.e. over write ho jayegi
+     console.log(student)
+      //safe access of objects
+     console.log(user?.permanent?.city)
+      //shallow copies outer most references only
+      //deep copy does not uses references 
+  </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //rest operator individuals value aa rhi h array ko todh kr ek mai rakhte h
+    //  array ko utha kr tukdo m todhna spread operator h ;array se tukhdo m hona is spread
+
+    function abc(...a)//rest operator
+    {
+      console.log(a);
+    }
+    let b = [11,22,33,44,55]
+    console.log(b);
+    console.log(...b);//spread operator
+    let c = b;
+    c = [...b];
+    abc(22);
+    abc(11,22);
+    abc(11,22,33);
+  </script>
+</body>
+</html>
